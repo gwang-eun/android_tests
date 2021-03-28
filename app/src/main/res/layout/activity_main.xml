@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnHomepage"
+    android:text="@string/btnHomepage"
+    android:backgroundTint="#DCCB30"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCall"
+        android:text="@string/btnCall"
+        android:backgroundTint="#37C3D6"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGallery"
+        android:text="@string/btnGallery"
+        android:backgroundTint="#7994E4"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_test"
+        android:hint="이름을 입력하세요"
+        android:maxLength="5"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtview_test"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMove"
+        android:text="@string/btnMove"
+        android:backgroundTint="#E91E63"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnClose"
+        android:text="@string/btnClose"
+        android:backgroundTint="#000"
+        android:textColor="#FFF"/>
+
+
+</LinearLayout>

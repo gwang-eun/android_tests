@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+
+    <string name="btnHomepage">홈페이지열기</string>
+    <string name="btnCall">전화걸기</string>
+    <string name="btnGallery">비콘테스트</string>
+    <string name="btnMove">눌러봐</string>
+    <string name="btnClose">끝내기</string>
+
+    <string name="save_success">저장했습니다</string>
+</resources>
